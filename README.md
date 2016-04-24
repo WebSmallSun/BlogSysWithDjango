@@ -1,0 +1,2 @@
+# BlogSysWithDjango
+用django实现一个类似博客园的博客系统
