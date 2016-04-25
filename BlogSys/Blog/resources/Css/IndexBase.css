@@ -1,0 +1,15 @@
+div#wrapper{
+    margin:  0 auto;
+    padding: 0;
+    border:  0;
+    width: 1129px;
+    text-align: left;
+}
+
+div#header{
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    width: 1110px;
+    height: 90px;
+}
