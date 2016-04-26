@@ -7,3 +7,7 @@
         b. 第二个div需要将overflow属性设置成hidden，即将覆盖住的部分隐藏掉。
     3> 中文显示乱码问题
         暂时解决方案：在<head>中加入<meta charset="UTF-8" />
+2. 用django搭建网站，显示首页
+    1> 无法找到css文件以及图片文件等
+        a. 需要在app目录下建一个static目录，里面可以存放该app的所有静态文件，包括css、JavaScript和Img；
+        b. 在html文件引入css、javascript和img文件时，src需要从/static/开始。
