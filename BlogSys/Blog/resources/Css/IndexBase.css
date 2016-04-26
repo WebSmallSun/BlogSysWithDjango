@@ -6,10 +6,33 @@ div#wrapper{
     text-align: left;
 }
 
-div#header{
+div#header{   
     margin: 0 0 0 12px;
     padding: 0;
     border: 0;
     width: 1110px;
-    height: 90px;
+    height: 55px;
+}
+
+div#logo{
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    float: left; 
+    width: 142px;
+    /*height: 55px;*/
+}
+
+div#login{
+    /*width: 1110px;*/
+    margin: 0 12px 0 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    text-align: right;
+    /*height: 55px;*/
+}
+
+span#user_info{
+
 }

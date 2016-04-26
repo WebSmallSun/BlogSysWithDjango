@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title><!--{% block title %}{% endblock %}--></title>
     <link rel="stylesheet" type="text/css" href="../resources/Css/IndexBase.css"></link>
+    <meta charset="UTF-8" />
 </head>
 <body>
     <div id="wrapper">
         <div id="header">
-            <div id="logo"></div>
-            <div id="login"></div>
+            <div id="logo">
+                <a href="/Index.html" title="Blog World">
+                    <img src="../resources/Img/logo_small.gif" alt="MyLogo" height="55" width="142"></img>
+                </a>
+            </div>
+            <div id="login">
+                <span id="user_info">
+                    [
+                    <a href="login.html">登录</a>
+                    |
+                    <a href="register.html">注册</a>
+                    ]
+                </span>
+            </div>
         </div>
         <div id="navFir"></div>
         <div id="navSec"></div>

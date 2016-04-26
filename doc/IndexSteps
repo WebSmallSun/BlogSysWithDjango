@@ -1,0 +1,9 @@
+将整个页面分成5部分: header、navFir、navSec、maincontent和footer。
+1. header部分
+    平行分成两部分: logo和login，logo用来显示网站logo，login部分用于用户注册登录的入口。
+    1> 显示logo图标只需要使用<img src=""><\img>即可。
+    2> 实现两个<div>平行放置的方法：
+        a. 让第一个div使用float属性悬浮于left;
+        b. 第二个div需要将overflow属性设置成hidden，即将覆盖住的部分隐藏掉。
+    3> 中文显示乱码问题
+        暂时解决方案：在<head>中加入<meta charset="UTF-8" />
