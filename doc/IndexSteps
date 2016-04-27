@@ -11,3 +11,13 @@
     1> 无法找到css文件以及图片文件等
         a. 需要在app目录下建一个static目录，里面可以存放该app的所有静态文件，包括css、JavaScript和Img；
         b. 在html文件引入css、javascript和img文件时，src需要从/static/开始。
+    2> git pull时发生overwrite问题
+        只需执行如下命令：
+            git reset --hard
+            git pull
+3. 导航栏的实现
+    1> 尝试用html5中的<nav>标签实现
+        a. li前面始终有黑点的问题：在css中使用liststyle:none即可消除黑点。
+        b. 在使用ul和li进行菜单导航分类时，遇到几个菜单无法放到同一水平上的问题
+            需要将li的display属性设置成：inline-block
+        c. 菜单居中：将li的line-height属性设置成height值

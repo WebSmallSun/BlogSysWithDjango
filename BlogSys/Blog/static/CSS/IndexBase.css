@@ -1,3 +1,4 @@
+
 div#wrapper{
     margin:  0 auto;
     padding: 0;
@@ -11,11 +12,11 @@ div#header{
     padding: 0;
     border: 0;
     width: 1110px;
-    height: 55px;
+    height: 65px;
 }
 
 div#logo{
-    margin: 0 0 0 12px;
+    margin: 5px 0 5px 12px;
     padding: 0;
     border: 0;
     float: left; 
@@ -33,6 +34,40 @@ div#login{
     /*height: 55px;*/
 }
 
-span#user_info{
-
+nav#navFir{
+    height: 55px;
+    width: 1100px;
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+    background: #fff;
 }
+
+ul#menu{
+    height: 55px;
+    width: 1100px;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    position: relative;       
+}
+
+li {
+    height: 55px;
+    margin: 0 20px;
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    line-height: 55px; 
+}
+
+li#a{
+    float: left;
+}
+li#b{
+    overflow: hidden;
+}
+li#c{
+    overflow: hidden;
+}
+
