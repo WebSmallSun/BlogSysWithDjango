@@ -21,3 +21,5 @@
         b. 在使用ul和li进行菜单导航分类时，遇到几个菜单无法放到同一水平上的问题
             需要将li的display属性设置成：inline-block
         c. 菜单居中：将li的line-height属性设置成height值
+        d. 菜单字体的颜色总是显示蓝色，如何改成其他颜色?
+            需要设置a:link的color和text-decoration.
