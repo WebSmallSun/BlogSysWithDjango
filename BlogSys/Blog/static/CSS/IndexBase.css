@@ -1,4 +1,4 @@
-
+/*
 div#wrapper{
     margin:  0 auto;
     padding: 0;
@@ -6,12 +6,40 @@ div#wrapper{
     width: 1129px;
     text-align: left;
 }
+*/
+div#hd_info{
+    line-height: 22px;
+    margin: 0 8px 0 3px;
+    padding-right: 0;
+}
 
-div#header{   
-    margin: 0 0 0 12px;
+div#cnts{
+    padding: 0 8px;
+    margin: auto;
+}
+
+div#site_nav_top{
+    float: left;
+    color: #666;
+}
+
+div#login{ 
+    /*width: 1110px;*/
+    margin: 0 12px 0 0;
     padding: 0;
     border: 0;
-    width: 1110px;
+    overflow: hidden;
+    text-align: right;
+    height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+div#header{   
+    margin: 0 10px 0 10px;
+    padding: 0;
+    border: 0;
+    /*width: 1110px;*/
     height: 65px;
 }
 
@@ -24,19 +52,9 @@ div#logo{
     /*height: 55px;*/
 }
 
-div#login{
-    /*width: 1110px;*/
-    margin: 0 12px 0 0;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    text-align: right;
-    /*height: 55px;*/
-}
-
 nav#navFir{
-    height: 55px;
-    width: 1100px;
+    height: 30px;
+    /*width: 1100px;*/
     margin: 0 0 0 12px;
     padding: 0;
     border: 0;
@@ -44,8 +62,8 @@ nav#navFir{
 }
 
 ul#menu{
-    height: 55px;
-    width: 1100px;
+    height: 30px;
+    /*width: 1100px;*/
     padding: 0;
     margin: 0;
     background: #cfe2f3;
@@ -53,25 +71,20 @@ ul#menu{
 }
 
 li {
-    height: 55px;
-    margin: 0 20px;
-    font-size: 20px;
+    height: 30px;
+    margin: 0 10px;
+    font-size: 14px;
     list-style: none;
     display: inline-block;
-    line-height: 55px; 
+    line-height: 30px; 
 }
 
 li#a{
     float: left;
-}
-li#b{
     overflow: hidden;
-}
-li#c{
-    overflow: hidden;
-}
+} 
 
-a:link{
+li a:link{
     color: #000000;
     text-decoration: none;
 }
