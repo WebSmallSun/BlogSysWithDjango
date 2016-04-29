@@ -23,3 +23,4 @@
         c. 菜单居中：将li的line-height属性设置成height值
         d. 菜单字体的颜色总是显示蓝色，如何改成其他颜色?
             需要设置a:link的color和text-decoration.
+        e. 如何将起始菜单项置边？

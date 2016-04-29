@@ -49,12 +49,10 @@ div#logo{
     border: 0;
     float: left; 
     width: 142px;
-    /*height: 55px;*/
 }
 
-nav#navFir{
+div#navFir{
     height: 30px;
-    /*width: 1100px;*/
     margin: 0 0 0 12px;
     padding: 0;
     border: 0;
@@ -62,30 +60,31 @@ nav#navFir{
 }
 
 ul#menu{
-    height: 30px;
-    /*width: 1100px;*/
+    /*height: 30px;*/
     padding: 0;
     margin: 0;
     background: #cfe2f3;
-    position: relative;       
+    /*position: relative;*/
 }
 
 li {
-    height: 30px;
+    /*height: 30px;*/
+    float: left;
     margin: 0 10px;
     font-size: 14px;
     list-style: none;
-    display: inline-block;
+    /*display: inline-block;*/
     line-height: 30px; 
 }
 
-li#a{
-    float: left;
-    overflow: hidden;
+div ul li#a{
+    display: block;
 } 
+
 
 li a:link{
     color: #000000;
     text-decoration: none;
+    /*padding-left: 24px;*/
 }
 
